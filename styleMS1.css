@@ -1,0 +1,766 @@
+body{
+    overflow-x: hidden;
+}
+#page1 img{
+    width: 100vw;
+    height: 100vh;
+    opacity:60%;
+}
+#page1{
+    width:100vw;
+    height: 100vh;
+    background-color: black;
+}
+#box{
+    width:500px;
+    height: 200px;
+    position: relative;
+    left:500px;
+    bottom:550px;
+    background-color: transparent;
+    border:1px solid gray;
+}
+#words1{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left:40px;
+    top:35px;
+}
+#words2{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left:80px;
+    top:35px;
+}
+#fusion{
+    color:rgb(214, 148, 5);
+}
+#smallwords{
+    color: white;
+    position: relative;
+    bottom:520px;
+    left:600px;
+}
+.line{
+    color:rgb(214, 148, 5);
+}
+li{
+    display: inline-block;
+}
+#square
+{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left:740px;
+    bottom:450px;
+    background-color: transparent;
+    border:1px solid rgb(214, 148, 5);
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);  
+}
+#circle{
+    width: 50px;    
+    height: 50px;
+    position: relative;
+    background-color: transparent;
+    border:2px solid rgb(214, 148, 5);
+    bottom:400px;
+    left:100px;
+    border-radius:50%;
+}
+#letter{
+    color:rgb(214, 148, 5) ;
+    position: relative;
+    left:19px;
+    top:12px;
+}
+#touch{
+    position: relative;
+    bottom:430px;
+    float: right;
+    right:170px;
+    content:"\01F812";
+}
+#touch a span{
+    color:rgb(214, 148, 5);
+}
+#touch a{
+    color:white;
+    text-decoration: none;
+}
+#page2{
+    width:100vw;
+    height: 100vh;
+    background-color:rgb(32, 32, 32);
+}
+#line2{
+  border-left: 1px solid rgb(214, 148, 5);
+  height: 100px;
+  position: absolute;
+  left: 745px;
+  margin-left: -3px;
+  top: 723px;
+}
+#service{
+    color:rgb(214, 148, 5);
+    position: relative;
+    top:100px;
+    left:706px;
+    font-size: small;
+}
+#words3{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:530px;
+    top:100px;
+}
+#words4{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:600px;
+    top:90px;
+}
+#logos1{
+    position: relative;
+    left:350px;
+    top:170px;
+}
+#def li{
+    color:white;
+    font-size: x-large;
+    position: relative;
+    left:200px;
+    top:200px;
+    padding-left: 110px;
+    padding-right: 160px;
+}
+#para1 p{
+    color:white;
+    position: relative;
+    font-size: small;
+    left:350px;
+    top:200px;
+}
+#para2 p{
+    color:white;
+    position: relative;
+    font-size: small;
+    left:715px;
+    top:108px;
+}
+#para3 p{
+    color:white;
+    position: relative;
+    font-size: small;
+    left:1085px;
+    top:12px;
+}
+#details li{
+    color:white;
+    position: relative;
+    left:200px;
+    top:40px;
+    padding-left: 110px;
+    padding-right:160px;
+    content:"\01F812";
+}
+#details span ul li span{
+    color:rgb(214, 148, 5);
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+}
+#bigBox{
+    height:500px;
+    width: 650px;
+    background-color: gray;
+    position: relative;
+    top:120px;
+    left:440px;
+}
+#line3{
+    border-left: 1px solid rgb(214, 148, 5);
+    height: 100px;
+    position: absolute;
+    left: 270px;
+    margin-left: -3px;
+    top: 120px;
+}
+#line4{
+    border-left: 1px solid rgb(214, 148, 5);
+    height: 100px;
+    position: absolute;
+    left: 1120px;
+    margin-left: -3px;
+    top: 520px;
+}
+#branding{
+    position: relative;
+    left:265px;
+    bottom: 270px;
+}
+#branding p{
+    color:rgb(214, 148, 5);
+}
+#project1{
+    position: relative;
+    left:265px;
+    bottom:275px;
+}
+#project1 p{
+    color: white;
+    font-size: 60px;
+}
+#project-details{
+    color: white;
+    position: relative;
+    left:1115px;
+    bottom:200px;
+    content:"\01F812";
+}
+#project-details p span{
+    color:rgb(214, 148, 5) ;
+}
+#view-slides{
+    color: white;
+    position: relative;
+    left:1116px;
+    bottom:200px;
+    content:"\01F812";
+}
+#view-slides p span{
+    color:rgb(214, 148, 5) ;
+}
+#image1{
+    width: 700px;
+    height: 500px;
+}
+#image2{
+    width: 700px;
+    height: 500px;
+}
+#image3{
+    width: 700px;
+    height: 500px;
+}
+#image4{
+    width: 700px;
+    height: 500px;
+}
+.car1>.carousel-indicators{
+    position: relative;
+    top:520px;
+}
+#page4{
+    width:100vw;
+    height: 100vh;
+    position: relative;
+    background-color:rgb(32, 32, 32);
+    bottom:10px;
+}
+#line5{
+    border-left: 1px solid rgb(214, 148, 5);
+    height: 100px;
+    position: absolute;
+    left: 745px;
+    margin-left: -3px;
+  }
+  #test{
+    color:rgb(214, 148, 5);
+    position: relative;
+    top:100px;
+    left:700px;
+    font-size: small;
+  }
+  #words5{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:530px;
+    top:100px;
+  }
+  #words6{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:600px;
+    top:90px;
+  }
+  #logos2{
+    position: relative;
+    left:180px;
+    top:90px;
+  }
+  #box2{
+    width:600px;
+    height: 300px;
+    position: relative;
+    left:450px;
+    top:120px;
+    background-color: rgb(20, 20, 20);
+  }
+  #box3{
+      background-color:rgb(207, 207, 207);
+      width:80px;
+      height:80px;
+      position: relative;
+      left:255px;
+      top:0px;
+  }
+  #words7{
+      position: relative;
+      left:90px;
+      top:20px;
+
+  }
+  #words7 p{
+      color:rgb(207, 207, 207);
+      font-size:large;
+  }
+  #words8{
+      position: relative;
+      left:14px;
+      top:10px;
+  }
+  #words8 p{
+    color:rgb(207, 207, 207);
+    font-size:large;
+  }
+  #words9{
+    position: relative;
+    left:16px;
+    top:5px;
+  }
+  #words9 p{
+    color:rgb(207, 207, 207);
+    font-size:large;
+  }
+  #words10{
+    position: relative;
+    left:170px;
+    top:0px;
+  }
+  #words10 p{
+    color:rgb(207, 207, 207);
+    font-size:large; 
+  }
+  #line6 hr{
+      border:1px solid rgb(207, 207, 207) ;
+      width:150px;
+      position: relative;
+      right:150px;
+  }
+  #line7 hr{
+    border:1px solid rgb(207, 207, 207) ;
+    width:150px;
+    position: relative;
+    left:150px;
+    bottom:18px;
+  }
+  #words11{
+      position: relative;
+      left:245px;
+      bottom:45px;
+  }
+  #words11 p{
+      color:rgb(214, 148, 5);
+  }
+  #words12{
+      position: relative;
+      left:248px;
+      bottom:60px;
+  }
+  #words12 p{
+      color:rgb(207, 207, 207);
+      font-size: small;
+  }
+
+#changeCar{
+    position: relative;
+    bottom: 38.7px;
+}
+#page5{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+    position: relative;
+    bottom:10px;
+
+}
+#line8{
+    border-left: 1px solid rgb(214, 148, 5);
+    height: 100px;
+    position: absolute;
+    left: 745px;
+    margin-left: -3px;
+    top: 0px;
+
+}
+#team{
+    color:rgb(214, 148, 5);
+    position: relative;
+    top:100px;
+    left:700px;
+}
+#amazing{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:600px;
+    top:100px;
+}
+#box4{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:350px;
+    top:100px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-left:none;
+    border-top:none;
+}
+#ceo{
+    color:white;
+    font-size: 10.9px;
+    width: 135px;
+    height:0px;
+    position: relative;
+    left:65px;
+}
+#box4 img{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    position: relative;
+    left:10px;
+    bottom:40px;
+}
+#rot1{
+    color:rgb(214, 148, 5);
+    transform: rotate(90deg);
+    position: relative;
+    top:50px;
+    right:57px;
+}
+#rot2{
+    color:white;
+    transform: rotate(90deg);
+    position: relative;
+    font-size: small;
+    top:27px;
+    right:80px;
+}
+#corner{
+    width:50px;
+    height:50px;
+    border:1px solid rgb(214, 148, 5);
+    border-right:none;
+    border-bottom:none;
+}
+#box5{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:550px;
+    bottom:150px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-top:none;
+}
+
+#box6{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:750px;
+    bottom:400px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-top:none;
+}
+
+#box7{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:950px;
+    bottom:650px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-top:none;
+    border-right: none;
+}
+
+#box8{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:350px;
+    bottom:650px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-left: none;
+    border-bottom: none;
+}
+
+#box9{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:550px;
+    bottom:900px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-left: none;
+    border-bottom: none;
+}
+
+#box10{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:750px;
+    bottom:1150px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-bottom: none;
+}
+#box11{
+    width:200px;
+    height: 250px;
+    position: relative;
+    left:950px;
+    bottom:1400px;
+    background-color: transparent;
+    border:1px solid rgb(19, 19, 19);
+    border-bottom: none;
+    border-right: none;
+}
+.photo{
+    border-radius:50%;
+    position: relative;
+    left:40px;
+    top:20px;
+}
+.name{
+    color:rgb(214, 148, 5) ;
+    position: relative;
+    left:37px;
+    top:20px;
+}
+.position{
+    color:white;
+    font-size:small;
+    position: relative;
+    left:60px;
+    top:10px;
+}
+#page6{
+    width:100vw;
+    height: 100vh;
+    position: relative;
+    background-color:rgb(53, 52, 52);
+    bottom:10px;
+}
+#line9{
+    border-left: 1px solid rgb(214, 148, 5);
+    height: 100px;
+    position: absolute;
+    left: 745px;
+    margin-left: -3px;
+    top: 0px;
+}
+#contact{
+    color:rgb(214, 148, 5);
+    position: relative;
+    top:100px;
+    left:700px;
+}
+#talk{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:570px;
+    top:85px;
+}
+#bigBox2{
+    width:600px;
+    height:400px;
+    background-color:rgb(12, 12, 12);
+    position: relative;
+    left:450px;
+    top:100px;
+}
+#fname{
+    color:white;
+    font-size:small;
+    position: relative;
+    left:50px;
+    top:30px;
+}
+#input1{
+    position: relative;
+    right:17px;
+    top:58px;
+    background-color:transparent;
+    border-color:rgb(59, 59, 59);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+}
+#mail{
+    color:white;
+    font-size:small;
+    position: relative;
+    top:30px;
+    left:100px;
+}
+#input2{
+    position: relative;
+    left:38px;
+    top:58px;
+    background-color:transparent;
+    border-color:rgb(59, 59, 59);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+}
+#company{
+    color:white;
+    font-size:small;
+    position: relative;
+    top:120px;
+    right:455px;
+    
+}
+#input3{
+    position: relative;
+    left:50px;
+    top:120px;
+    background-color:transparent;
+    border-color:rgb(59, 59, 59);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+}
+#subject{
+    color:white;
+    font-size:small;
+    position: relative;
+    top:90px;
+    left:170px;
+}
+#input4{
+    position: relative;
+    left:125px;
+    top:120px;
+    background-color:transparent;
+    border-color:rgb(59, 59, 59);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+}
+#messages{
+    color:white;
+    font-size:small;
+    position: relative;
+    top:180px;
+    right:370px;
+}
+#area{
+    position: relative;
+    left:50px;
+    top:175px;
+    width:500px;
+    background-color:transparent;
+    border-color:rgb(59, 59, 59);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+}
+#submit{
+    position: relative;
+    left:220px;
+    top:230px;
+    background-color:rgb(204, 158, 59);
+    border:1px solid rgb(204, 158, 59);
+    width:140px;
+    height: 40px;
+}
+#circle2{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: transparent;
+    border:2px solid rgb(214, 148, 5);
+    top:120px;
+    left:450px;
+    border-radius:50%;
+}
+
+#letter2{
+    color:rgb(214, 148, 5) ;
+    position: relative;
+    left:14px;
+    top:5px;
+}
+#cal{
+    color: white;
+    position: relative;
+    left:500px;
+    top:70px;
+}
+#new{
+    color: white;
+    position: relative;
+    left:570px;
+    top:70px;
+}
+#other{
+    color: white;
+    position: relative;
+    left:620px;
+    top:70px;
+}
+#cal1{
+    color:rgb(170, 166, 166);
+    font-size: small;
+    position: relative;
+    left:540px;
+    top:60px;
+}
+#new1{
+    color:rgb(170, 166, 166);
+    font-size: small;
+    position: relative;
+    left:728px;
+    bottom:13px;
+}
+#other1{
+    color:rgb(170, 166, 166);
+    font-size: small;
+    position: relative;
+    left:895px;
+    bottom:87px;
+}
+#other1 img{
+    position: relative;
+    bottom:10px;
+    right:10px;
+}
